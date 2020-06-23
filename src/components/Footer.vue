@@ -1,5 +1,4 @@
 <template>
-  <!-- Footer -->
   <footer class="footer-bg">
     <div class="footer-top border-bottom section-padding-top padding-bottom-40">
       <div class="container">
@@ -161,7 +160,6 @@
       </div>
     </div>
   </footer>
-  <!-- Footer End -->
 </template>
 
 <script>

@@ -1,9 +1,5 @@
 <template>
   <div>
-    <!-- Header -->
-    <app-header></app-header>
-    <!-- Header end -->
-
     <!-- Login Modal -->
     <app-login-modal></app-login-modal>
     <!-- Login Modal end -->
@@ -34,35 +30,28 @@
 
     <!-- Testimonial -->
     <app-testimonial></app-testimonial>
-    <!-- Testimonial -->
+    <!-- Testimonial end-->
 
     <!-- Career advice -->
     <app-career-advice></app-career-advice>
     <!-- Career advice end -->
-
-    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
-import appHeader from '../layout/Header'
-import appFooter from '../layout/Footer'
-
-import appLoginModal from '../components/LoginModal'
-import appRegisterModal from '../components/RegisterModal'
-import appBanner from '../components/Banner'
-import appSearch from '../components/Search'
-import appCategory from '../components/Category'
-import appJobs from '../components/Jobs'
-import appTopCompanies from '../components/TopCompanies'
-import appTestimonial from '../components/Testimonial'
-import appCareerAdvice from '../components/CareerAdvice'
+import appLoginModal from "../components/LoginModal";
+import appRegisterModal from "../components/RegisterModal";
+import appBanner from "../components/Banner";
+import appSearch from "../components/Search";
+import appCategory from "../components/Category";
+import appJobs from "../components/Jobs";
+import appTopCompanies from "../components/TopCompanies";
+import appTestimonial from "../components/Testimonial";
+import appCareerAdvice from "../components/CareerAdvice";
 
 export default {
   name: "appHome",
   components: {
-    appHeader,
-    appFooter,
     appLoginModal,
     appRegisterModal,
     appBanner,
