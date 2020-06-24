@@ -1,19 +1,21 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 
+//Routes
+import { routes as sessionRoutes } from "./session";
+
 //Layouts
 import DefaultLayout from "../layout/DefaultLayout";
 import SessionLayout from "../layout/SessionLayout";
 
 //Components
-import Home from "../views/Home.vue";
-import Login from "../views/Session/Login";
-import Register from "../views/Session/Register";
-// import Faqs from "../views/Faqs"
+import Home from "../views/Home";
+import ErrorPage from "../views/ErrorPage";
 
 Vue.use(VueRouter);
 
 const routes = [
+  ...sessionRoutes,
   {
     path: "/",
     name: "home",
@@ -23,20 +25,16 @@ const routes = [
     }
   },
   {
-    path: "/login",
-    name: "login",
-    component: Login,
+    path: "/404",
+    name: "404",
+    component: ErrorPage,
     meta: {
       layout: SessionLayout
     }
   },
   {
-    path: "/register",
-    name: "register",
-    component: Register,
-    meta: {
-      layout: SessionLayout
-    }
+    path: "*",
+    redirect: "/404"
   }
 ];
 
