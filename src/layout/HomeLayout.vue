@@ -1,6 +1,6 @@
 <template>
   <div>
-    <app-alternative-header></app-alternative-header>
+    <app-header></app-header>
 
     <router-view></router-view>
 
@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import appAlternativeHeader from "../components/layout/AlternativeHeader";
+import appHeader from "../components/layout/Header";
 import appFooter from "../components/layout/Footer";
 
 export default {
-  name: "defaultLayout",
+  name: "homeLayout",
   components: {
-    appAlternativeHeader,
+    appHeader,
     appFooter
   }
 };
