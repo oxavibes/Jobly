@@ -12,7 +12,9 @@
                   <li class="breadcrumb-item">
                     <a href="#">Home</a>
                   </li>
-                  <li class="breadcrumb-item active" aria-current="page">Job Listing</li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Job Listing
+                  </li>
                 </ol>
               </nav>
             </div>
@@ -63,13 +65,19 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-8.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-8.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
                       <div class="content">
                         <h4>
-                          <a href="job-details.html">Restaurant Team Member - Crew</a>
+                          <a href="job-details.html"
+                            >Restaurant Team Member - Crew</a
+                          >
                         </h4>
                         <div class="info">
                           <span class="company">
@@ -96,7 +104,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -108,7 +117,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-9.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-9.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -141,7 +154,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -153,7 +167,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-10.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-10.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -186,7 +204,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -198,13 +217,19 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-3.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-3.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
                       <div class="content">
                         <h4>
-                          <a href="job-details.html">Land Development Marketer</a>
+                          <a href="job-details.html"
+                            >Land Development Marketer</a
+                          >
                         </h4>
                         <div class="info">
                           <span class="company">
@@ -231,7 +256,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -243,7 +269,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-10.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-10.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -276,7 +306,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -288,13 +319,19 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-3.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-3.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
                       <div class="content">
                         <h4>
-                          <a href="job-details.html">Land Development Marketer</a>
+                          <a href="job-details.html"
+                            >Land Development Marketer</a
+                          >
                         </h4>
                         <div class="info">
                           <span class="company">
@@ -321,7 +358,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -333,7 +371,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-1.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-1.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -366,7 +408,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -378,7 +421,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-2.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-2.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -411,7 +458,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -423,13 +471,19 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-8.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-8.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
                       <div class="content">
                         <h4>
-                          <a href="job-details.html">Restaurant Team Member - Crew</a>
+                          <a href="job-details.html"
+                            >Restaurant Team Member - Crew</a
+                          >
                         </h4>
                         <div class="info">
                           <span class="company">
@@ -456,7 +510,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -468,7 +523,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-9.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-9.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -501,7 +560,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -513,7 +573,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-1.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-1.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -546,7 +610,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -558,7 +623,11 @@
                   <div class="job-list">
                     <div class="thumb">
                       <a href="#">
-                        <img src="images/job/company-logo-2.png" class="img-fluid" alt />
+                        <img
+                          src="images/job/company-logo-2.png"
+                          class="img-fluid"
+                          alt
+                        />
                       </a>
                     </div>
                     <div class="body">
@@ -591,7 +660,8 @@
                             class="button"
                             data-toggle="modal"
                             data-target="#apply-popup-id"
-                          >Apply Now</a>
+                            >Apply Now</a
+                          >
                           <a href="#" class="favourite">
                             <i data-feather="heart"></i>
                           </a>
@@ -626,7 +696,11 @@
                           <div class="modal-body">
                             <form action="#">
                               <div class="form-group">
-                                <input type="text" placeholder="Full Name" class="form-control" />
+                                <input
+                                  type="text"
+                                  placeholder="Full Name"
+                                  class="form-control"
+                                />
                               </div>
                               <div class="form-group">
                                 <input
@@ -636,7 +710,10 @@
                                 />
                               </div>
                               <div class="form-group">
-                                <textarea class="form-control" placeholder="Message"></textarea>
+                                <textarea
+                                  class="form-control"
+                                  placeholder="Message"
+                                ></textarea>
                               </div>
                               <div class="form-group file-input-wrap">
                                 <label for="up-cv">
@@ -660,7 +737,9 @@
                                   <a href="#">terms & conditions</a>
                                 </label>
                               </div>
-                              <button class="button primary-bg btn-block">Apply Now</button>
+                              <button class="button primary-bg btn-block">
+                                Apply Now
+                              </button>
                             </form>
                           </div>
                         </div>
@@ -675,7 +754,9 @@
                         <i class="fas fa-angle-left"></i>
                       </a>
                       <a class="page-numbers" href="#">1</a>
-                      <span aria-current="page" class="page-numbers current">2</span>
+                      <span aria-current="page" class="page-numbers current"
+                        >2</span
+                      >
                       <a class="page-numbers" href="#">3</a>
                       <a class="page-numbers" href="#">4</a>
                       <a class="next page-numbers" href="#">
@@ -700,7 +781,9 @@
                     <option value="california">Education</option>
                     <option value="california">Design &amp; Creative</option>
                     <option value="california">Health Care</option>
-                    <option value="california">Engineer &amp; Architects</option>
+                    <option value="california"
+                      >Engineer &amp; Architects</option
+                    >
                     <option value="california">Marketing &amp; Sales</option>
                     <option value="california">Garments / Textile</option>
                     <option value="california">Customer Support</option>
@@ -743,14 +826,19 @@
                     </li>
                   </ul>
                 </div>
-                <div data-id="experience" class="job-filter experience same-pad">
+                <div
+                  data-id="experience"
+                  class="job-filter experience same-pad"
+                >
                   <h4 class="option-title">Experience</h4>
                   <ul>
                     <li>
                       <a href="#" data-attr="Fresh">Fresh</a>
                     </li>
                     <li>
-                      <a href="#" data-attr="Less than 1 year">Less than 1 year</a>
+                      <a href="#" data-attr="Less than 1 year"
+                        >Less than 1 year</a
+                      >
                     </li>
                     <li>
                       <a href="#" data-attr="2 Year">2 Year</a>
@@ -820,7 +908,10 @@
                     </li>
                   </ul>
                 </div>
-                <div data-id="qualification" class="job-filter qualification same-pad">
+                <div
+                  data-id="qualification"
+                  class="job-filter qualification same-pad"
+                >
                   <h4 class="option-title">Qualification</h4>
                   <ul>
                     <li>
@@ -850,7 +941,10 @@
             <div class="call-to-action-2">
               <div class="call-to-action-content">
                 <h2>For Find Your Dream Job or Candidate</h2>
-                <p>Add resume or post a job. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                <p>
+                  Add resume or post a job. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Ut elit tellus, luctus nec.
+                </p>
               </div>
               <div class="call-to-action-button">
                 <a href="add-resume.html" class="button">Add Resume</a>
@@ -863,7 +957,6 @@
       </div>
     </div>
     <!-- Call to Action End -->
-    
   </div>
 </template>
 
