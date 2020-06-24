@@ -6,10 +6,12 @@ import { routes as sessionRoutes } from "./session";
 
 //Layouts
 import DefaultLayout from "../layout/DefaultLayout";
+import HomeLayout from "../layout/HomeLayout";
 import SessionLayout from "../layout/SessionLayout";
 
 //Components
 import Home from "../views/Home";
+import JobListing from "../views/Jobs/JobListing";
 import ErrorPage from "../views/ErrorPage";
 
 Vue.use(VueRouter);
@@ -20,6 +22,14 @@ const routes = [
     path: "/",
     name: "home",
     component: Home,
+    meta: {
+      layout: HomeLayout
+    }
+  },
+  {
+    path: "/job-listing",
+    name: "job-listing",
+    component: JobListing,
     meta: {
       layout: DefaultLayout
     }

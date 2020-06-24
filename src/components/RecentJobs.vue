@@ -8,9 +8,9 @@
             class="section-header section-header-2 section-header-with-right-content"
           >
             <h2>Empleos recientes</h2>
-            <a href="job-listing.html" class="header-right"
-              >+ Ver todos los empleos</a
-            >
+            <router-link to="/job-listing" class="header-right">
+              + Ver todos los empleos
+            </router-link>
           </div>
         </div>
       </div>
