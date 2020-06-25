@@ -77,7 +77,7 @@
 
 <script>
 export default {
-  name: "footer",
+  name: "TheFooter",
   computed: {
     currentYear() {
       return new Date().getFullYear();

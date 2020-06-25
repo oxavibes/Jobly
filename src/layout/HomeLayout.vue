@@ -9,11 +9,11 @@
 </template>
 
 <script>
-import appHeader from "../components/layout/Header";
-import appFooter from "../components/layout/Footer";
+import appHeader from "../components/layout/TheHeader";
+import appFooter from "../components/layout/TheFooter";
 
 export default {
-  name: "homeLayout",
+  name: "HomeLayout",
   components: {
     appHeader,
     appFooter

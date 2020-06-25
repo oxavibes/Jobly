@@ -25,7 +25,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Newsletter"
+};
 </script>
 
 <style scoped>

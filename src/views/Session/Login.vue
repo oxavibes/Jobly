@@ -50,7 +50,7 @@
 import session from "./Session";
 
 export default {
-  name: "appLogin",
+  name: "Login",
   components: {
     session
   }

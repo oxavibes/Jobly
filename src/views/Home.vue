@@ -82,7 +82,7 @@ import appNewsletter from "../components/Newsletter";
 // import appCareerAdvice from "../components/CareerAdvice";
 
 export default {
-  name: "appHome",
+  name: "Home",
   components: {
     appBanner,
     appSearch,

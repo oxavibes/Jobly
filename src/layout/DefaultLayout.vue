@@ -10,10 +10,10 @@
 
 <script>
 import appAlternativeHeader from "../components/layout/AlternativeHeader";
-import appFooter from "../components/layout/Footer";
+import appFooter from "../components/layout/TheFooter";
 
 export default {
-  name: "defaultLayout",
+  name: "DefaultLayout",
   components: {
     appAlternativeHeader,
     appFooter

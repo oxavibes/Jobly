@@ -374,7 +374,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "RecentJobs"
+};
 </script>
 
 <style>

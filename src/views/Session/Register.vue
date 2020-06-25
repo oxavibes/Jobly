@@ -74,7 +74,7 @@
 import session from "./Session";
 
 export default {
-  name: "appRegister",
+  name: "Register",
   components: {
     session
   }
