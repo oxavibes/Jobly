@@ -186,9 +186,9 @@ $(document).ready(function() {
     Bootstrap Select
     -------------------------------------*/
 
-    $('.selectpicker').selectpicker({
-      size: 10
-    });
+    // $('.selectpicker').selectpicker({
+    //   size: 10
+    // });
 
     /*-------------------------------------
     Owl Carousel
@@ -518,12 +518,6 @@ $(document).ready(function() {
       centerMode: false,
       focusOnSelect: true
     });
-
-    /*-------------------------------------------
-    Feather Icon
-    -------------------------------------------*/
-
-    feather.replace();
 
     /*-----------------------------------
     Back to Top

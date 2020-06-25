@@ -7,6 +7,12 @@
             <div class="searchAndFilter">
               <form action="#" class="search-form">
                 <input type="text" placeholder="Palabras claves" />
+                <!-- <v-select
+                  v-model="selectedLocation"
+                  :options="locationOptions"
+                  class="select"
+                  id="search-location"
+                ></v-select> -->
                 <select class="selectpicker" id="search-location">
                   <option value selected>Ubicación</option>
                   <option value="california">California</option>
@@ -35,61 +41,61 @@
                 <ul>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="bar-chart-2"></i>Diseño / UX
+                      <bar-chart-2-icon></bar-chart-2-icon> Diseño / UX
                       <span>(233)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="edit-3"></i>Programación
+                      <edit-3-icon></edit-3-icon> Programación
                       <span>(46)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="feather"></i>Data Science & Analytics
+                      <feather-icon></feather-icon> Data Science & Analytics
                       <span>(156)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="briefcase"></i>Desarrollo Mobile
+                      <briefcase-icon></briefcase-icon> Desarrollo Mobile
                       <span>(98)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="package"></i>Engineer & Architects
+                      <package-icon></package-icon> Engineer & Architects
                       <span>(188)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="pie-chart"></i>Marketing Dgital
+                      <pie-chart-icon></pie-chart-icon> Marketing Dgital
                       <span>(124)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="command"></i>SysAdmin / Devops / Qa
+                      <command-icon></command-icon> SysAdmin / Devops / Qa
                       <span>(584)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="globe"></i>Soporte
+                      <globe-icon></globe-icon> Soporte
                       <span>(233)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="headphones"></i>Innovacion y Agilidad
+                      <headphones-icon></headphones-icon> Innovacion y Agilidad
                       <span>(15)</span>
                     </a>
                   </li>
                   <li>
                     <a href="job-listing.html">
-                      <i data-feather="radio"></i>Telecomunicaciónes
+                      <radio-icon></radio-icon> Telecomunicaciónes
                       <span>(03)</span>
                     </a>
                   </li>
@@ -104,8 +110,55 @@
 </template>
 
 <script>
-export default {};
+// import VSelect from "@alfsnd/vue-bootstrap-select";
+import {
+  BarChart2Icon,
+  Edit3Icon,
+  FeatherIcon,
+  BriefcaseIcon,
+  PackageIcon,
+  PieChartIcon,
+  CommandIcon,
+  GlobeIcon,
+  HeadphonesIcon,
+  RadioIcon
+} from "vue-feather-icons";
+
+export default {
+  name: "search",
+  components: {
+    BarChart2Icon,
+    Edit3Icon,
+    FeatherIcon,
+    BriefcaseIcon,
+    PackageIcon,
+    PieChartIcon,
+    CommandIcon,
+    GlobeIcon,
+    HeadphonesIcon,
+    RadioIcon
+  },
+  data() {
+    return {
+      selectedLocation: "ubicacion",
+      locationOptions: [
+        { value: "ubicacion", text: "Ubicación" },
+        { value: "california", text: "California" },
+        { value: "las-vegas", text: "Las Vegas" },
+        { value: "new-york", text: "New York" },
+        { value: "carolina", text: "Carolina" },
+        { value: "chicago", text: "Chicago" },
+        { value: "silicon-valley", text: "Silicon Valley" },
+        { value: "washington", text: "Washington DC" },
+        { value: "neveda", text: "Neveda" }
+      ]
+    };
+  }
+};
 </script>
 
-<style>
+<style scoped>
+.select {
+  width: 50%;
+}
 </style>

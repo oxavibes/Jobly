@@ -1,10 +1,21 @@
+// import $ from "jquery";
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+import bootstrap from "bootstrap-vue"
+
+Vue.use(bootstrap)
 
 Vue.config.productionTip = false;
 
+Vue.mixin({
+  created() {
+    console.log('[created] ' + this.$options.name)
+  },
+});
+
+// window.$ = $;
 
 new Vue({
   router,
