@@ -25,7 +25,7 @@
     <!-- Search end -->
 
     <!-- Jobs -->
-    <app-recent-jobs></app-recent-jobs>
+    <app-recent-job-list></app-recent-job-list>
     <!-- Jobs end -->
 
     <!-- Top Companies -->
@@ -75,7 +75,7 @@
 import appBanner from "../components/Banner";
 import appSearch from "../components/Search";
 // import appCategory from "../components/Category";
-import appRecentJobs from "../components/RecentJobs";
+import appRecentJobList from "../components/RecentJobList";
 import appTopCompanies from "../components/TopCompanies";
 import appNewsletter from "../components/Newsletter";
 // import appTestimonial from "../components/Testimonial";
@@ -87,7 +87,7 @@ export default {
     appBanner,
     appSearch,
     // appCategory,
-    appRecentJobs,
+    appRecentJobList,
     appTopCompanies,
     appNewsletter
     // appTestimonial,
