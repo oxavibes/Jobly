@@ -2,7 +2,7 @@
   <div class="job-list">
     <div class="thumb">
       <a href="#">
-        <img :src="job.companyLogo" class="img-fluid" alt />
+        <img :src="require(`../../public/assets/images/job/${job.companyLogo}`)" class="img-fluid" alt />
       </a>
     </div>
     <div class="body">

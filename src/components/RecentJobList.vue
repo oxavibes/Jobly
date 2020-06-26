@@ -49,7 +49,7 @@ export default {
           location: "New York City",
           type: "Full Time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "../../public/assets/images/job/company-logo-1.png"
+          companyLogo: "company-logo-1.png"
         },
         {
           title: "Project Manager",
@@ -57,7 +57,7 @@ export default {
           location: "San Francisco",
           type: "Part time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "../../public/assets/images/job/company-logo-1.png"
+          companyLogo: "company-logo-2.png"
         },
         {
           title: "Land Developtment Marketer",
@@ -65,7 +65,7 @@ export default {
           location: "Washington, D.C.",
           type: "Freelance",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "../../public/assets/images/job/company-logo-1.png"
+          companyLogo: "company-logo-3.png"
         },
         {
           title: "Restaurant Team Member - Crew",
@@ -73,7 +73,7 @@ export default {
           location: "New Orleans",
           type: "Temporary",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "../../public/assets/images/job/company-logo-1.png"
+          companyLogo: "company-logo-8.png"
         },
         {
           title: "Nutrition Advisor",
@@ -81,7 +81,7 @@ export default {
           location: "New York City",
           type: "Full Time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "../../public/assets/images/job/company-logo-1.png"
+          companyLogo: "company-logo-9.png"
         },
         {
           title: "UI Designer",
@@ -89,7 +89,7 @@ export default {
           location: "San Francisco",
           type: "Part time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "../../public/assets/images/job/company-logo-1.png"
+          companyLogo: "company-logo-10.png"
         }
       ]
     };
