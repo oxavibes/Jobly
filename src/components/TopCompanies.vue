@@ -12,150 +12,12 @@
       <div class="row">
         <div class="col">
           <div class="company-carousel owl-carousel">
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-1.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">Digoin</a>
-                </h4>
-                <span>Kansas City, Missouri</span>
-                <a href="job-listing.html" class="button">4 vacantes </a>
-              </div>
-            </div>
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-2.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">Orion Ltd.</a>
-                </h4>
-                <span>Sacramento, California</span>
-                <a href="job-listing.html" class="button">2 vacantes </a>
-              </div>
-            </div>
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-3.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">Realhouse</a>
-                </h4>
-                <span>London, United Kingdom</span>
-                <a href="job-listing.html" class="button">4 vacantes </a>
-              </div>
-            </div>
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-4.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">BioPro</a>
-                </h4>
-                <span>Ajax, Ontarioland</span>
-                <a href="job-listing.html" class="button">1 vacantes </a>
-              </div>
-            </div>
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-1.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">Digoin</a>
-                </h4>
-                <span>Kansas City, Missouri</span>
-                <a href="job-listing.html" class="button">4 vacantes </a>
-              </div>
-            </div>
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-2.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">Orion Ltd.</a>
-                </h4>
-                <span>Sacramento, California</span>
-                <a href="job-listing.html" class="button">2 vacantes </a>
-              </div>
-            </div>
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-3.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">Realhouse</a>
-                </h4>
-                <span>London, United Kingdom</span>
-                <a href="job-listing.html" class="button">4 vacantes </a>
-              </div>
-            </div>
-            <div class="company-wrap">
-              <div class="thumb">
-                <a href="#">
-                  <img
-                    src="../../public/assets/images/company/company-logo-4.png"
-                    class="img-fluid"
-                    alt
-                  />
-                </a>
-              </div>
-              <div class="body">
-                <h4>
-                  <a href="employer-details.html">BioPro</a>
-                </h4>
-                <span>Ajax, Ontarioland</span>
-                <a href="job-listing.html" class="button">1 vacantes </a>
-              </div>
-            </div>
+            <top-companies-item
+              :company="company"
+              v-for="(company, index) in topCompanies"
+              :key="index"
+            >
+            </top-companies-item>
           </div>
         </div>
       </div>
@@ -165,8 +27,48 @@
 </template>
 
 <script>
+import TopCompaniesItem from "./TopCompaniesItem";
 export default {
-  name: "TopCompanies"
+  name: "TopCompanies",
+  components: {
+    TopCompaniesItem
+  },
+  data() {
+    return {
+      topCompanies: [
+        {
+          name: "Digoin",
+          location: "Kansas City, Missouri",
+          vacancies: "4 vacantes",
+          logo: "company-logo-1.png"
+        },
+        {
+          name: "Orion Ltd.",
+          location: "Sacramento, California",
+          vacancies: "2 vacantes",
+          logo: "company-logo-2.png"
+        },
+        {
+          name: "Realhouse",
+          location: "London, United Kingdom",
+          vacancies: "4 vacantes",
+          logo: "company-logo-3.png"
+        },
+        {
+          name: "BioPro",
+          location: "Ajax, Ontarioland",
+          vacancies: "4 vacantes",
+          logo: "company-logo-4.png"
+        },
+        {
+          name: "Digoin",
+          location: "Kansas City, Missouri",
+          vacancies: "4 Open Positions",
+          logo: "company-logo-1.png"
+        }
+      ]
+    };
+  }
 };
 </script>
 
