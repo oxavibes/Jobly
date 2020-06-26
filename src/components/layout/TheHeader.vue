@@ -7,7 +7,7 @@
         <img
           src="../../../public/assets/images/logo.png"
           class="img-fluid"
-          alt
+          alt="Logo"
         />
       </router-link>
       <button
@@ -23,12 +23,12 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <router-link tag="li" to="/login" class="router-button--transparent">
-            Iniciar sesión
+        <ul class="account-nav navbar-nav ml-auto">
+          <router-link tag="li" to="/login" class="menu-item login-popup">
+            <button>Iniciar sesión</button>
           </router-link>
-          <router-link tag="li" to="/sign-up" class="router-button--transparent">
-            Regístrate
+          <router-link tag="li" to="/sign-up" class="menu-item login-popup">
+            <button>Regístrate</button>
           </router-link>
         </ul>
       </div>
