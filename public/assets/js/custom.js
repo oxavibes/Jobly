@@ -522,12 +522,12 @@ $(document).ready(function() {
     /*-----------------------------------
     Back to Top
     -----------------------------------*/
-    $('.back-to-top a').on('click', function() {
-      $("html, body").animate({
-        scrollTop: 0
-      }, 600);
-      return false;
-    })
+    // $('.back-to-top a').on('click', function() {
+    //   $("html, body").animate({
+    //     scrollTop: 0
+    //   }, 600);
+    //   return false;
+    // })
 
     /*-------------------------------------
       PRICING CONTROL 

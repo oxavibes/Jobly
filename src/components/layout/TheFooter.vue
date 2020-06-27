@@ -6,7 +6,11 @@
           <div class="col-md-6">
             <div class="footer-logo">
               <a href="#">
-                <img src="../../../public/assets/images/footer-logo.png" class="img-fluid" alt />
+                <img
+                  src="../../../public/assets/images/footer-logo.png"
+                  class="img-fluid"
+                  alt
+                />
               </a>
             </div>
           </div>
@@ -60,10 +64,10 @@
                 </div>
                 <div class="col-xl-4 col-lg-3 order-lg-3">
                   <div class="back-to-top">
-                    <a href="#">
+                    <router-link to="" @click.native="scrollToTop">
                       Regresar
                       <i class="fas fa-angle-up"></i>
-                    </a>
+                    </router-link>
                   </div>
                 </div>
               </div>
@@ -81,6 +85,11 @@ export default {
   computed: {
     currentYear() {
       return new Date().getFullYear();
+    }
+  },
+  methods: {
+    scrollToTop() {
+      window.scrollTo(0, 0);
     }
   }
 };
