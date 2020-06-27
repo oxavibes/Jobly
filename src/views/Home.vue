@@ -33,34 +33,15 @@
     <!-- Top Companies end -->
 
     <!-- Registration Box -->
+
     <div class="section-padding">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="call-to-action-box candidate-box">
-              <div class="icon">
-                <img src="../../public/assets/images/register-box/1.png" alt />
-              </div>
-              <span>¿Eres un</span>
-              <h3>Candidato?</h3>
-              <router-link to="/sign-up">
-                Regístrate aquí
-                <i class="fas fa-arrow-right"></i>
-              </router-link>
-            </div>
+            <app-registration-box :employer="true"></app-registration-box>
           </div>
           <div class="col-lg-6">
-            <div class="call-to-action-box employer-register">
-              <div class="icon">
-                <img src="../../public/assets/images/register-box/2.png" alt />
-              </div>
-              <span>¿Eres Un</span>
-              <h3>Empleador?</h3>
-              <router-link to="/sign-up">
-                Regístrate aquí
-                <i class="fas fa-arrow-right"></i>
-              </router-link>
-            </div>
+            <app-registration-box :employer="false"></app-registration-box>
           </div>
         </div>
       </div>
@@ -74,24 +55,20 @@
 <script>
 import appBanner from "../components/Banner";
 import appSearch from "../components/Search";
-// import appCategory from "../components/Category";
 import appRecentJobList from "../components/RecentJobList";
 import appTopCompanies from "../components/TopCompanies";
 import appNewsletter from "../components/Newsletter";
-// import appTestimonial from "../components/Testimonial";
-// import appCareerAdvice from "../components/CareerAdvice";
+import appRegistrationBox from "../components/RegistrationBox";
 
 export default {
   name: "Home",
   components: {
     appBanner,
     appSearch,
-    // appCategory,
     appRecentJobList,
     appTopCompanies,
-    appNewsletter
-    // appTestimonial,
-    // appCareerAdvice
+    appNewsletter,
+    appRegistrationBox
   }
 };
 </script>
