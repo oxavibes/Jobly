@@ -7,7 +7,7 @@
           <div class="categories">
             <div class="category">
               <div class="icon">
-                <i data-feather="bar-chart-2"></i>
+                <bar-chart-2-icon></bar-chart-2-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -18,7 +18,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="edit"></i>
+                <edit-icon></edit-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -29,7 +29,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="feather"></i>
+                <feather-icon></feather-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -40,7 +40,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="briefcase"></i>
+                <briefcase-icon></briefcase-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -51,7 +51,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="package"></i>
+                <package-icon></package-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -62,7 +62,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="pie-chart"></i>
+                <pie-chart-icon></pie-chart-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -73,7 +73,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="command"></i>
+                <command-icon></command-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -84,7 +84,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="life-buoy"></i>
+                <life-buoy-icon></life-buoy-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -95,7 +95,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="headphones"></i>
+                <headphones-icon></headphones-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -106,7 +106,7 @@
             </div>
             <div class="category">
               <div class="icon">
-                <i data-feather="radio"></i>
+                <radio-icon></radio-icon>
               </div>
               <h5>
                 <a href="job-listing.html">
@@ -128,8 +128,33 @@
 </template>
 
 <script>
+import {
+  BarChart2Icon,
+  BriefcaseIcon,
+  HeadphonesIcon,
+  LifeBuoyIcon,
+  CommandIcon,
+  PieChartIcon,
+  RadioIcon,
+  PackageIcon,
+  FeatherIcon,
+  EditIcon
+} from "vue-feather-icons";
+
 export default {
-  name: "Category"
+  name: "Category",
+  components: {
+    BarChart2Icon,
+    BriefcaseIcon,
+    HeadphonesIcon,
+    LifeBuoyIcon,
+    CommandIcon,
+    PieChartIcon,
+    RadioIcon,
+    PackageIcon,
+    FeatherIcon,
+    EditIcon
+  }
 };
 </script>
 
