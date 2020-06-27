@@ -15,8 +15,12 @@
                 />
               </div>
               <h1>Pagina no encontrada</h1>
-              <p>Lo sentimos, parece que la pagina que estas buscando no existe.</p>
-              <a @click="$router.go(-1)" class="button">Regresar</a>
+              <p>
+                Lo sentimos, parece que la pagina que estas buscando no existe.
+              </p>
+              <a @click="$router.replace('/job-listing')" class="button"
+                >Regresar</a
+              >
             </div>
           </div>
         </div>
@@ -27,7 +31,7 @@
 
 <script>
 export default {
-  name: "errorPage",
+  name: "errorPage"
 };
 </script>
 

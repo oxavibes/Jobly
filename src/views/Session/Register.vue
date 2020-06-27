@@ -2,9 +2,9 @@
   <div>
     <session>
       <template v-slot:route>
-        <router-link to="/login" class="primary-button"
-          >Inicia sesión</router-link
-        >
+        <router-link to="/login" class="primary-button">
+          Inicia sesión
+        </router-link>
       </template>
 
       <template v-slot:content>
@@ -53,13 +53,13 @@
           <button class="button primary-bg btn-block">Registrarse</button>
         </form>
         <div class="shortcut-login">
-          <span>Or connect with</span>
+          <!-- <span>Or connect with</span>
           <div class="buttons">
             <a href="#" class="facebook">
               <i class="fab fa-facebook-f"></i>Facebook
             </a>
             <a href="#" class="google"> <i class="fab fa-google"></i>Google </a>
-          </div>
+          </div> -->
           <p>
             ¿Ya tienes cuenta?
             <router-link to="/login">Inicia sesión</router-link>
@@ -81,7 +81,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
- 
-   
+<style></style>

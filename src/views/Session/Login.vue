@@ -30,13 +30,13 @@
         <button class="button primary-bg btn-block">Iniciar sesíon</button>
       </form>
       <div class="shortcut-login">
-        <span>Or connect with</span>
+        <!-- <span>Or connect with</span>
         <div class="buttons">
           <a href="#" class="facebook">
             <i class="fab fa-facebook-f"></i>Facebook
           </a>
           <a href="#" class="google"> <i class="fab fa-google"></i>Google </a>
-        </div>
+        </div> -->
         <p>
           ¿No tienes cuenta?
           <router-link to="/sign-up">Regístrate</router-link>
@@ -57,9 +57,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
-
-   
-
-   
+<style></style>

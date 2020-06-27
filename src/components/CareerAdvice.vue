@@ -20,18 +20,17 @@
               <h3>
                 <a href="blog-details.html">Who chooses to enjoy a pleasure</a>
               </h3>
-              <p>Combined with a handful of model sentence structures, to generate lorem Ipsum which</p>
+              <p>
+                Combined with a handful of model sentence structures, to
+                generate lorem Ipsum which
+              </p>
             </div>
             <div class="info">
               <span class="author">
-                <a href="#">
-                  <i data-feather="user"></i>Robert Karlos
-                </a>
+                <a href="#"> <i data-feather="user"></i>Robert Karlos </a>
               </span>
               <span class="comments">
-                <a href="#">
-                  <i data-feather="message-circle"></i>42
-                </a>
+                <a href="#"> <i data-feather="message-circle"></i>42 </a>
               </span>
             </div>
           </article>
@@ -46,18 +45,17 @@
               <h3>
                 <a href="blog-details.html">Who chooses to enjoy a pleasure</a>
               </h3>
-              <p>Combined with a handful of model sentence structures, to generate lorem Ipsum which</p>
+              <p>
+                Combined with a handful of model sentence structures, to
+                generate lorem Ipsum which
+              </p>
             </div>
             <div class="info">
               <span class="author">
-                <a href="#">
-                  <i data-feather="user"></i>Robert Karlos
-                </a>
+                <a href="#"> <i data-feather="user"></i>Robert Karlos </a>
               </span>
               <span class="comments">
-                <a href="#">
-                  <i data-feather="message-circle"></i>42
-                </a>
+                <a href="#"> <i data-feather="message-circle"></i>42 </a>
               </span>
             </div>
           </article>
@@ -72,18 +70,17 @@
               <h3>
                 <a href="blog-details.html">Who chooses to enjoy a pleasure</a>
               </h3>
-              <p>Combined with a handful of model sentence structures, to generate lorem Ipsum which</p>
+              <p>
+                Combined with a handful of model sentence structures, to
+                generate lorem Ipsum which
+              </p>
             </div>
             <div class="info">
               <span class="author">
-                <a href="#">
-                  <i data-feather="user"></i>Robert Karlos
-                </a>
+                <a href="#"> <i data-feather="user"></i>Robert Karlos </a>
               </span>
               <span class="comments">
-                <a href="#">
-                  <i data-feather="message-circle"></i>42
-                </a>
+                <a href="#"> <i data-feather="message-circle"></i>42 </a>
               </span>
             </div>
           </article>
@@ -100,5 +97,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

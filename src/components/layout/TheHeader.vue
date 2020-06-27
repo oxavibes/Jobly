@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="account-nav navbar-nav ml-auto">
           <router-link tag="li" to="/login" class="menu-item login-popup">
-            <button>Iniciar sesión</button>
+            <button>Inicia sesión</button>
           </router-link>
           <router-link tag="li" to="/sign-up" class="menu-item login-popup">
             <button>Regístrate</button>
@@ -42,5 +42,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
