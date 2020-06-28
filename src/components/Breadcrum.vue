@@ -4,14 +4,20 @@
       <div class="row">
         <div class="col-md-6">
           <div class="breadcrumb-area">
-            <h1>Job Listing</h1>
+            <h1>
+              <slot name="title"></slot>
+            </h1>
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                  <a href="#">Home</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Job Listing
+                <li
+                  class="breadcrumb-item"
+                  v-for="(breadcrumb, index) in breadcrumbList"
+                  :key="index"
+                  :class="{ active: breadcrumb.active }"
+                >
+                  <router-link :to="breadcrumb.link" active-class="active">
+                    {{ breadcrumb.name }}
+                  </router-link>
                 </li>
               </ol>
             </nav>
@@ -20,9 +26,9 @@
         <div class="col-md-6">
           <div class="breadcrumb-form">
             <form action="#">
-              <input type="text" placeholder="Enter Keywords" />
+              <input type="text" placeholder="Palabras claves" />
               <button>
-                <i data-feather="search"></i>
+                <search-icon></search-icon>
               </button>
             </form>
           </div>
@@ -33,8 +39,31 @@
 </template>
 
 <script>
+import { SearchIcon } from "vue-feather-icons";
+
 export default {
-  name: "Breadcrumb"
+  name: "Breadcrumb",
+  components: {
+    SearchIcon
+  },
+  mounted() {
+    this.updateList();
+  },
+  data() {
+    return {
+      breadcrumbList: []
+    };
+  },
+  methods: {
+    updateList() {
+      this.breadcrumbList = this.$route.meta.breadcrumb;
+    }
+  },
+  watch: {
+    $route() {
+      this.updateList();
+    }
+  }
 };
 </script>
 

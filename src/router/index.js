@@ -31,7 +31,17 @@ const routes = [
     name: "job-listing",
     component: JobListing,
     meta: {
-      layout: DefaultLayout
+      layout: DefaultLayout,
+      breadcrumb: [{
+          name: "Inicio",
+          link: "/"
+        },
+        {
+          name: "Lista de trabajos",
+          link: "/job-listing",
+          active: true
+        }
+      ]
     }
   },
   {
@@ -50,7 +60,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: "history",
-  routes,
+  routes
 });
 
 export default router;
