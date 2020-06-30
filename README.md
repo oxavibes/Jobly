@@ -1,4 +1,4 @@
-# jobly
+# Jobly-Front-end
 
 ## Project setup
 ```
