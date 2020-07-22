@@ -18,9 +18,7 @@
               <p>
                 Lo sentimos, parece que la pagina que estas buscando no existe.
               </p>
-              <a @click="$router.replace('/job-listing')" class="button"
-                >Regresar</a
-              >
+              <a @click="$router.replace('/')" class="button">Regresar</a>
             </div>
           </div>
         </div>
@@ -35,5 +33,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

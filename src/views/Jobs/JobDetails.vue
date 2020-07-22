@@ -1,6 +1,5 @@
 <template>
   <div>
-    
     <!-- Candidates Details -->
     <div class="alice-bg padding-top-60 section-padding-bottom">
       <div class="container">
@@ -10,7 +9,11 @@
               <div class="job-title-and-info">
                 <div class="title">
                   <div class="thumb">
-                    <img src="images/job/company-logo-1.png" class="img-fluid" alt />
+                    <img
+                      src="images/job/company-logo-1.png"
+                      class="img-fluid"
+                      alt
+                    />
                   </div>
                   <div class="title-body">
                     <h4>Designer Required</h4>
@@ -26,9 +29,7 @@
                         </a>
                       </span>
                       <span class="job-type full-time">
-                        <a href="#">
-                          <i data-feather="clock"></i>Full Time
-                        </a>
+                        <a href="#"> <i data-feather="clock"></i>Full Time </a>
                       </span>
                     </div>
                   </div>
@@ -42,48 +43,75 @@
                     href="#"
                     data-toggle="modal"
                     data-target="#apply-popup-id"
-                  >Apply Online</a>
+                    >Apply Online</a
+                  >
                 </div>
               </div>
               <div class="details-information section-padding-60">
                 <div class="row">
                   <div class="col-xl-7 col-lg-8">
                     <div class="description details-section">
-                      <h4>
-                        <i data-feather="align-left"></i>Job Description
-                      </h4>
-                      <p>Combined with a handful of model sentence structures, to generate lorem Ipsum which It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including.</p>
-                      <p>Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable</p>
+                      <h4><i data-feather="align-left"></i>Job Description</h4>
+                      <p>
+                        Combined with a handful of model sentence structures, to
+                        generate lorem Ipsum which It has survived not only five
+                        centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset
+                        sheets containing Lorem Ipsum passages, and more
+                        recently with desktop publishing software like Aldus
+                        PageMaker including.
+                      </p>
+                      <p>
+                        Richard McClintock, a Latin professor at Hampden-Sydney
+                        College in Virginia, looked up one of the more obscure
+                        Latin words, consectetur, from a Lorem Ipsum passage,
+                        and going through the cites of the word in classical
+                        literature, discovered the undoubtable
+                      </p>
                     </div>
                     <div class="responsibilities details-section">
-                      <h4>
-                        <i data-feather="zap"></i>Responsibilities
-                      </h4>
+                      <h4><i data-feather="zap"></i>Responsibilities</h4>
                       <ul>
-                        <li>The applicants should have experience in the following areas</li>
-                        <li>Skills on M.S Word, Excel, and Integrated Accounting package i.e. Software</li>
+                        <li>
+                          The applicants should have experience in the following
+                          areas
+                        </li>
+                        <li>
+                          Skills on M.S Word, Excel, and Integrated Accounting
+                          package i.e. Software
+                        </li>
                         <li>Have sound knowledge of commercial activities.</li>
-                        <li>Should have vast knowledge in IAS/ IFRS, Company Act, Income Tax, VAT.</li>
+                        <li>
+                          Should have vast knowledge in IAS/ IFRS, Company Act,
+                          Income Tax, VAT.
+                        </li>
                         <li>Good verbal and written communication skills.</li>
-                        <li>Leadership, analytical, and problem-solving abilities.</li>
+                        <li>
+                          Leadership, analytical, and problem-solving abilities.
+                        </li>
                       </ul>
                     </div>
                     <div class="edication-and-experience details-section">
-                      <h4>
-                        <i data-feather="book"></i>Education + Experience
-                      </h4>
+                      <h4><i data-feather="book"></i>Education + Experience</h4>
                       <ul>
-                        <li>M.Com (Accounting) / M.B.S / M.B.A under National University with CA course complete.</li>
-                        <li>M.S (Statistics) any Public University / National University.</li>
-                        <li>Masters of library science any Public University.</li>
+                        <li>
+                          M.Com (Accounting) / M.B.S / M.B.A under National
+                          University with CA course complete.
+                        </li>
+                        <li>
+                          M.S (Statistics) any Public University / National
+                          University.
+                        </li>
+                        <li>
+                          Masters of library science any Public University.
+                        </li>
                         <li>2 to 3 year(s) Experiance</li>
                         <li>Females candidate are discourage to apply.</li>
                       </ul>
                     </div>
                     <div class="other-benifit details-section">
-                      <h4>
-                        <i data-feather="gift"></i>Other Benefits
-                      </h4>
+                      <h4><i data-feather="gift"></i>Other Benefits</h4>
                       <ul>
                         <li>Health and life insurance</li>
                         <li>2 days of weekend</li>
@@ -97,7 +125,8 @@
                         class="apply"
                         data-toggle="modal"
                         data-target="#apply-popup-id"
-                      >Apply Online</a>
+                        >Apply Online</a
+                      >
                       <a href="#" class="email">
                         <i data-feather="mail"></i>Email Job
                       </a>
@@ -108,27 +137,13 @@
                       <div class="job-summary">
                         <h4>Job Summary</h4>
                         <ul>
-                          <li>
-                            <span>Published on:</span> Oct 6, 2020
-                          </li>
-                          <li>
-                            <span>Vacancy:</span> 08
-                          </li>
-                          <li>
-                            <span>Employment Status:</span> Full-time
-                          </li>
-                          <li>
-                            <span>Experience:</span> 2 to 3 year(s)
-                          </li>
-                          <li>
-                            <span>Job Location:</span> New ork City
-                          </li>
-                          <li>
-                            <span>Salary:</span> $32k - $36k
-                          </li>
-                          <li>
-                            <span>Gender:</span> Any
-                          </li>
+                          <li><span>Published on:</span> Oct 6, 2020</li>
+                          <li><span>Vacancy:</span> 08</li>
+                          <li><span>Employment Status:</span> Full-time</li>
+                          <li><span>Experience:</span> 2 to 3 year(s)</li>
+                          <li><span>Job Location:</span> New ork City</li>
+                          <li><span>Salary:</span> $32k - $36k</li>
+                          <li><span>Gender:</span> Any</li>
                           <li>
                             <span>Application Deadline:</span> Oct 15, 2020
                           </li>
@@ -185,16 +200,10 @@
               <div class="row">
                 <div class="col-xl-7 col-lg-8">
                   <div class="company-information details-section">
-                    <h4>
-                      <i data-feather="briefcase"></i>About the Company
-                    </h4>
+                    <h4><i data-feather="briefcase"></i>About the Company</h4>
                     <ul>
-                      <li>
-                        <span>Company Name:</span> The Oreo Company Ltd.
-                      </li>
-                      <li>
-                        <span>Address:</span> Queens, NY 11375 USA
-                      </li>
+                      <li><span>Company Name:</span> The Oreo Company Ltd.</li>
+                      <li><span>Address:</span> Queens, NY 11375 USA</li>
                       <li>
                         <span>Website:</span>
                         <a href="#">www.theoreoltd.com</a>
@@ -202,7 +211,13 @@
                       <li>
                         <span>Company Profile:</span>
                       </li>
-                      <li>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum looked up one of the more obscure Latin words, consectetur.</li>
+                      <li>
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum looked
+                        up one of the more obscure Latin words, consectetur.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -215,27 +230,49 @@
     <!-- Candidates Details End -->
 
     <div class="apply-popup">
-      <div class="modal fade" id="apply-popup-id" tabindex="-1" role="dialog" aria-hidden="true">
+      <div
+        class="modal fade"
+        id="apply-popup-id"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">
                 <i data-feather="edit"></i>APPLY FOR THIS JOB
               </h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
               <form action="#">
                 <div class="form-group">
-                  <input type="text" placeholder="Full Name" class="form-control" />
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    class="form-control"
+                  />
                 </div>
                 <div class="form-group">
-                  <input type="email" placeholder="Email Address" class="form-control" />
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    class="form-control"
+                  />
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" placeholder="Message"></textarea>
+                  <textarea
+                    class="form-control"
+                    placeholder="Message"
+                  ></textarea>
                 </div>
                 <div class="form-group file-input-wrap">
                   <label for="up-cv">
@@ -248,7 +285,12 @@
                   </label>
                 </div>
                 <div class="more-option">
-                  <input class="custom-radio" type="checkbox" id="radio-4" name="termsandcondition" />
+                  <input
+                    class="custom-radio"
+                    type="checkbox"
+                    id="radio-4"
+                    name="termsandcondition"
+                  />
                   <label for="radio-4">
                     <span class="dot"></span> I accept the
                     <a href="#">terms & conditions</a>
@@ -267,7 +309,9 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="section-header section-header-2 section-header-with-right-content">
+            <div
+              class="section-header section-header-2 section-header-with-right-content"
+            >
               <h2>Simillar Jobs</h2>
               <a href="#" class="header-right">+ Browse All Jobs</a>
             </div>
@@ -278,7 +322,11 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-1.png" class="img-fluid" alt />
+                  <img
+                    src="images/job/company-logo-1.png"
+                    class="img-fluid"
+                    alt
+                  />
                 </a>
               </div>
               <div class="body">
@@ -288,9 +336,7 @@
                   </h4>
                   <div class="info">
                     <span class="company">
-                      <a href="#">
-                        <i data-feather="briefcase"></i>Theoreo
-                      </a>
+                      <a href="#"> <i data-feather="briefcase"></i>Theoreo </a>
                     </span>
                     <span class="office-location">
                       <a href="#">
@@ -298,9 +344,7 @@
                       </a>
                     </span>
                     <span class="job-type full-time">
-                      <a href="#">
-                        <i data-feather="clock"></i>Full Time
-                      </a>
+                      <a href="#"> <i data-feather="clock"></i>Full Time </a>
                     </span>
                   </div>
                 </div>
@@ -318,7 +362,11 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-2.png" class="img-fluid" alt />
+                  <img
+                    src="images/job/company-logo-2.png"
+                    class="img-fluid"
+                    alt
+                  />
                 </a>
               </div>
               <div class="body">
@@ -328,9 +376,7 @@
                   </h4>
                   <div class="info">
                     <span class="company">
-                      <a href="#">
-                        <i data-feather="briefcase"></i>Degoin
-                      </a>
+                      <a href="#"> <i data-feather="briefcase"></i>Degoin </a>
                     </span>
                     <span class="office-location">
                       <a href="#">
@@ -338,9 +384,7 @@
                       </a>
                     </span>
                     <span class="job-type part-time">
-                      <a href="#">
-                        <i data-feather="clock"></i>Part Time
-                      </a>
+                      <a href="#"> <i data-feather="clock"></i>Part Time </a>
                     </span>
                   </div>
                 </div>
@@ -358,7 +402,11 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-8.png" class="img-fluid" alt />
+                  <img
+                    src="images/job/company-logo-8.png"
+                    class="img-fluid"
+                    alt
+                  />
                 </a>
               </div>
               <div class="body">
@@ -378,9 +426,7 @@
                       </a>
                     </span>
                     <span class="job-type temporary">
-                      <a href="#">
-                        <i data-feather="clock"></i>Temporary
-                      </a>
+                      <a href="#"> <i data-feather="clock"></i>Temporary </a>
                     </span>
                   </div>
                 </div>
@@ -398,7 +444,11 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-9.png" class="img-fluid" alt />
+                  <img
+                    src="images/job/company-logo-9.png"
+                    class="img-fluid"
+                    alt
+                  />
                 </a>
               </div>
               <div class="body">
@@ -408,9 +458,7 @@
                   </h4>
                   <div class="info">
                     <span class="company">
-                      <a href="#">
-                        <i data-feather="briefcase"></i>Theoreo
-                      </a>
+                      <a href="#"> <i data-feather="briefcase"></i>Theoreo </a>
                     </span>
                     <span class="office-location">
                       <a href="#">
@@ -418,9 +466,7 @@
                       </a>
                     </span>
                     <span class="job-type full-time">
-                      <a href="#">
-                        <i data-feather="clock"></i>Full Time
-                      </a>
+                      <a href="#"> <i data-feather="clock"></i>Full Time </a>
                     </span>
                   </div>
                 </div>
@@ -438,7 +484,11 @@
             <div class="job-list">
               <div class="thumb">
                 <a href="#">
-                  <img src="images/job/company-logo-3.png" class="img-fluid" alt />
+                  <img
+                    src="images/job/company-logo-3.png"
+                    class="img-fluid"
+                    alt
+                  />
                 </a>
               </div>
               <div class="body">
@@ -448,9 +498,7 @@
                   </h4>
                   <div class="info">
                     <span class="company">
-                      <a href="#">
-                        <i data-feather="briefcase"></i>Realouse
-                      </a>
+                      <a href="#"> <i data-feather="briefcase"></i>Realouse </a>
                     </span>
                     <span class="office-location">
                       <a href="#">
@@ -458,9 +506,7 @@
                       </a>
                     </span>
                     <span class="job-type freelance">
-                      <a href="#">
-                        <i data-feather="clock"></i>Freelance
-                      </a>
+                      <a href="#"> <i data-feather="clock"></i>Freelance </a>
                     </span>
                   </div>
                 </div>
@@ -489,7 +535,10 @@
             <div class="call-to-action-2">
               <div class="call-to-action-content">
                 <h2>For Find Your Dream Job or Candidate</h2>
-                <p>Add resume or post a job. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                <p>
+                  Add resume or post a job. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Ut elit tellus, luctus nec.
+                </p>
               </div>
               <div class="call-to-action-button">
                 <a href="add-resume.html" class="button">Add Resume</a>
@@ -509,8 +558,4 @@
 export default {};
 </script>
 
-<style>
-</style>
-
-    
-
+<style></style>

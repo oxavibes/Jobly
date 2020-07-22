@@ -7,7 +7,10 @@
             <div class="header-top">
               <div class="logo-area">
                 <router-link to="/">
-                  <img src="../../../public/assets/images/logo-2.png" alt="Logo" />
+                  <img
+                    src="../../../public/assets/images/logo-2.png"
+                    alt="Logo"
+                  />
                 </router-link>
               </div>
               <div class="top-nav">
@@ -40,5 +43,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

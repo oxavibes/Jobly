@@ -12,7 +12,9 @@
                   <li class="breadcrumb-item">
                     <a href="#">Home</a>
                   </li>
-                  <li class="breadcrumb-item active" aria-current="page">FAQ Page</li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    FAQ Page
+                  </li>
                 </ol>
               </nav>
             </div>
@@ -51,7 +53,11 @@
                   </div>
                   <div class="row justify-content-center">
                     <div class="col-lg-10">
-                      <ul class="nav nav-tabs faq-tab" id="myTab" role="tablist">
+                      <ul
+                        class="nav nav-tabs faq-tab"
+                        id="myTab"
+                        role="tablist"
+                      >
                         <li class="nav-item">
                           <a
                             class="nav-link active show"
@@ -61,7 +67,8 @@
                             role="tab"
                             aria-controls="feature"
                             aria-selected="false"
-                          >Candidate</a>
+                            >Candidate</a
+                          >
                         </li>
                         <li class="nav-item">
                           <a
@@ -72,7 +79,8 @@
                             role="tab"
                             aria-controls="latest"
                             aria-selected="false"
-                          >Employer</a>
+                            >Employer</a
+                          >
                         </li>
                         <li class="nav-item">
                           <a
@@ -83,10 +91,14 @@
                             role="tab"
                             aria-controls="contact"
                             aria-selected="true"
-                          >About Pricing</a>
+                            >About Pricing</a
+                          >
                         </li>
                       </ul>
-                      <div class="tab-content faq-tab-content" id="myTabContent">
+                      <div
+                        class="tab-content faq-tab-content"
+                        id="myTabContent"
+                      >
                         <div
                           class="tab-pane fade active show"
                           id="feature"
@@ -104,7 +116,9 @@
                                     data-target="#collapseOne"
                                     aria-expanded="true"
                                     aria-controls="collapseOne"
-                                  >What is Oficiona ?</button>
+                                  >
+                                    What is Oficiona ?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -114,7 +128,17 @@
                                 data-parent="#accordionExample"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -133,7 +157,9 @@
                                     data-target="#collapseTwo"
                                     aria-expanded="false"
                                     aria-controls="collapseTwo"
-                                  >How we sell your product here ?</button>
+                                  >
+                                    How we sell your product here ?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -143,7 +169,17 @@
                                 data-parent="#accordionExample"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -162,7 +198,9 @@
                                     data-target="#collapseThree"
                                     aria-expanded="false"
                                     aria-controls="collapseThree"
-                                  >What is our features product?</button>
+                                  >
+                                    What is our features product?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -172,7 +210,17 @@
                                 data-parent="#accordionExample"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -191,7 +239,9 @@
                                     data-target="#collapseFour"
                                     aria-expanded="false"
                                     aria-controls="collapseFour"
-                                  >Is it ecommerce site?</button>
+                                  >
+                                    Is it ecommerce site?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -201,7 +251,17 @@
                                 data-parent="#accordionExample"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -220,7 +280,9 @@
                                     data-target="#collapseFive"
                                     aria-expanded="false"
                                     aria-controls="collapseFive"
-                                  >How we take payment from our customers?</button>
+                                  >
+                                    How we take payment from our customers?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -230,7 +292,17 @@
                                 data-parent="#accordionExample"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -258,7 +330,9 @@
                                     data-target="#collapseSix"
                                     aria-expanded="true"
                                     aria-controls="collapseSix"
-                                  >How we sell your product here ?</button>
+                                  >
+                                    How we sell your product here ?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -268,7 +342,17 @@
                                 data-parent="#accordionExample2"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -287,7 +371,9 @@
                                     data-target="#collapseSeven"
                                     aria-expanded="false"
                                     aria-controls="collapseSeven"
-                                  >How we sell your product here?</button>
+                                  >
+                                    How we sell your product here?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -297,7 +383,17 @@
                                 data-parent="#accordionExample2"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -316,7 +412,9 @@
                                     data-target="#collapseEight"
                                     aria-expanded="false"
                                     aria-controls="collapseEight"
-                                  >What is our features product?</button>
+                                  >
+                                    What is our features product?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -326,7 +424,17 @@
                                 data-parent="#accordionExample2"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -345,7 +453,9 @@
                                     data-target="#collapseNine"
                                     aria-expanded="false"
                                     aria-controls="collapseNine"
-                                  >Is it ecommerce site?</button>
+                                  >
+                                    Is it ecommerce site?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -355,7 +465,17 @@
                                 data-parent="#accordionExample2"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -374,7 +494,9 @@
                                     data-target="#collapseTen"
                                     aria-expanded="false"
                                     aria-controls="collapseTen"
-                                  >How we take payment from our customers?</button>
+                                  >
+                                    How we take payment from our customers?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -384,7 +506,17 @@
                                 data-parent="#accordionExample2"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -412,7 +544,9 @@
                                     data-target="#collapseEleven"
                                     aria-expanded="true"
                                     aria-controls="collapseEleven"
-                                  >How we sell your product here ?</button>
+                                  >
+                                    How we sell your product here ?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -422,7 +556,17 @@
                                 data-parent="#accordionExample3"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -441,7 +585,9 @@
                                     data-target="#collapseTweleve"
                                     aria-expanded="false"
                                     aria-controls="collapseTweleve"
-                                  >How we sell your product here?</button>
+                                  >
+                                    How we sell your product here?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -451,7 +597,17 @@
                                 data-parent="#accordionExample3"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -470,7 +626,9 @@
                                     data-target="#collapseThirteen"
                                     aria-expanded="false"
                                     aria-controls="collapseThirteen"
-                                  >What is our features product?</button>
+                                  >
+                                    What is our features product?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -480,7 +638,17 @@
                                 data-parent="#accordionExample3"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -499,7 +667,9 @@
                                     data-target="#collapseFourteen"
                                     aria-expanded="false"
                                     aria-controls="collapseFourteen"
-                                  >Is it ecommerce site?</button>
+                                  >
+                                    Is it ecommerce site?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -509,7 +679,17 @@
                                 data-parent="#accordionExample3"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -528,7 +708,9 @@
                                     data-target="#collapseFifteen"
                                     aria-expanded="false"
                                     aria-controls="collapseFifteen"
-                                  >How we take payment from our customers?</button>
+                                  >
+                                    How we take payment from our customers?
+                                  </button>
                                 </h5>
                               </div>
                               <div
@@ -538,7 +720,17 @@
                                 data-parent="#accordionExample3"
                               >
                                 <div class="card-body">
-                                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.</p>
+                                  <p>
+                                    There are many variations of passages of
+                                    Lorem Ipsum available, but the majority have
+                                    suffered alteration in some form, by
+                                    injected humour, or randomised words which
+                                    don't look even slightly believable. If you
+                                    are going to use a passage of Lorem Ipsum.
+                                    All the Lorem Ipsum generators on the
+                                    Internet tend to repeat predefined chunks as
+                                    necessary.
+                                  </p>
                                   <p>
                                     Did you like this answer ?
                                     <a href="#">Yes</a> or
@@ -561,7 +753,9 @@
                     <img src="images/chat-icon.png" class="img-fluid" alt />
                   </div>
                   <h4>Don’t get Answer?</h4>
-                  <p>We have a record of answering everything in 3 hours of less.</p>
+                  <p>
+                    We have a record of answering everything in 3 hours of less.
+                  </p>
                   <div class="buttons">
                     <a href="#" class="email">Email Us</a>
                     <a href="#" class="chat">Let's Chat</a>
@@ -587,7 +781,10 @@
             <div class="call-to-action-2">
               <div class="call-to-action-content">
                 <h2>For Find Your Dream Job or Candidate</h2>
-                <p>Add resume or post a job. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
+                <p>
+                  Add resume or post a job. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit. Ut elit tellus, luctus nec.
+                </p>
               </div>
               <div class="call-to-action-button">
                 <a href="add-resume.html" class="button">Add Resume</a>
@@ -600,7 +797,6 @@
       </div>
     </div>
     <!-- Call to Action End -->
-
   </div>
 </template>
 
@@ -608,5 +804,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

@@ -33,7 +33,6 @@
     <!-- Top Companies end -->
 
     <!-- Registration Box -->
-
     <div class="section-padding">
       <div class="container">
         <div class="row">

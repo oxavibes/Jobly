@@ -1,28 +1,52 @@
 <template>
   <div class="account-entry">
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-hidden="true">
+    <div
+      class="modal fade"
+      id="exampleModalLong"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">
-              <i data-feather="user"></i>Login
-            </h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <h5 class="modal-title"><i data-feather="user"></i>Login</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
             <form action="#">
               <div class="form-group">
-                <input type="email" placeholder="Email Address" class="form-control" />
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  class="form-control"
+                />
               </div>
               <div class="form-group">
-                <input type="password" placeholder="Password" class="form-control" />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  class="form-control"
+                />
               </div>
               <div class="more-option">
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value id="defaultCheck1" />
-                  <label class="form-check-label" for="defaultCheck1">Remember Me</label>
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value
+                    id="defaultCheck1"
+                  />
+                  <label class="form-check-label" for="defaultCheck1"
+                    >Remember Me</label
+                  >
                 </div>
                 <a href="#">Forget Password?</a>
               </div>
@@ -56,5 +80,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
