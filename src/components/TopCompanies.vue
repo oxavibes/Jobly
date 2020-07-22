@@ -33,6 +33,36 @@ export default {
   components: {
     TopCompaniesItem
   },
+  mounted() {
+    $(".company-carousel").owlCarousel({
+      loop: true,
+      autoplay: true,
+      margin: 20,
+      dots: false,
+      nav: true,
+      navText: [
+        '<span class="ti-angle-left"></span>',
+        '<span class="ti-angle-right"></span>'
+      ],
+      responsive: {
+        0: {
+          items: 1
+        },
+        480: {
+          items: 2
+        },
+        768: {
+          items: 3
+        },
+        992: {
+          items: 4
+        },
+        1200: {
+          items: 5
+        }
+      }
+    });
+  },
   data() {
     return {
       topCompanies: [
@@ -72,5 +102,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

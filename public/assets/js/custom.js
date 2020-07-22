@@ -186,39 +186,39 @@ $(document).ready(function() {
     Bootstrap Select
     -------------------------------------*/
 
-    // $('.selectpicker').selectpicker({
-    //   size: 10
-    // });
+    $('.selectpicker').selectpicker({
+      size: 10
+    });
 
     /*-------------------------------------
     Owl Carousel
     -------------------------------------*/
 
-    $('.company-carousel').owlCarousel({
-      loop:true,
-      autoplay: false,
-      margin: 20,
-      dots: false,
-      nav:true,
-      navText: ['<span class="ti-angle-left"></span>','<span class="ti-angle-right"></span>'],
-      responsive:{
-        0:{
-          items:1
-        },
-        480:{
-          items:2
-        },
-        768:{
-          items:3
-        },
-        992: {
-          items:4
-        },
-        1200:{
-          items:5
-        }
-      }
-    })
+    // $('.company-carousel').owlCarousel({
+    //   loop:true,
+    //   autoplay: false,
+    //   margin: 20,
+    //   dots: false,
+    //   nav:true,
+    //   navText: ['<span class="ti-angle-left"></span>','<span class="ti-angle-right"></span>'],
+    //   responsive:{
+    //     0:{
+    //       items:1
+    //     },
+    //     480:{
+    //       items:2
+    //     },
+    //     768:{
+    //       items:3
+    //     },
+    //     992: {
+    //       items:4
+    //     },
+    //     1200:{
+    //       items:5
+    //     }
+    //   }
+    // })
 
     $('.portfolio-slider').owlCarousel({
       loop:true,
