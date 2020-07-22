@@ -1,5 +1,4 @@
 <template>
-  <!-- Jobs -->
   <div class="section-padding alice-bg">
     <div class="container">
       <div class="row">
@@ -16,28 +15,27 @@
       </div>
       <div class="row">
         <div class="col">
-          <recent-job-item
+          <job-item
             :job="job"
             v-for="(job, index) in jobList"
             :key="index"
-          ></recent-job-item>
+          ></job-item>
 
           <apply-job-modal></apply-job-modal>
         </div>
       </div>
     </div>
   </div>
-  <!-- Jobs End -->
 </template>
 
 <script>
 import ApplyJobModal from "./modals/ApplyJobModal";
-import RecentJobItem from "./RecentJobItem";
+import JobItem from "./JobItem";
 
 export default {
   name: "RecentJobList",
   components: {
-    RecentJobItem,
+    JobItem,
     ApplyJobModal
   },
   data() {
@@ -49,7 +47,7 @@ export default {
           location: "New York City",
           type: "Full Time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "company-logo-1.png"
+          companyLogo: require("../../public/assets/images/job/company-logo-1.png")
         },
         {
           title: "Project Manager",
@@ -57,7 +55,7 @@ export default {
           location: "San Francisco",
           type: "Part time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "company-logo-2.png"
+          companyLogo: require("../../public/assets/images/job/company-logo-2.png")
         },
         {
           title: "Land Developtment Marketer",
@@ -65,7 +63,7 @@ export default {
           location: "Washington, D.C.",
           type: "Freelance",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "company-logo-3.png"
+          companyLogo: require("../../public/assets/images/job/company-logo-3.png")
         },
         {
           title: "Restaurant Team Member - Crew",
@@ -73,7 +71,7 @@ export default {
           location: "New Orleans",
           type: "Temporary",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "company-logo-8.png"
+          companyLogo: require("../../public/assets/images/job/company-logo-8.png")
         },
         {
           title: "Nutrition Advisor",
@@ -81,7 +79,7 @@ export default {
           location: "New York City",
           type: "Full Time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "company-logo-9.png"
+          companyLogo: require("../../public/assets/images/job/company-logo-9.png")
         },
         {
           title: "UI Designer",
@@ -89,7 +87,7 @@ export default {
           location: "San Francisco",
           type: "Part time",
           deadline: "Deadline: Oct 31, 2020",
-          companyLogo: "company-logo-10.png"
+          companyLogo: require("../../public/assets/images/job/company-logo-10.png")
         }
       ]
     };
@@ -97,5 +95,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

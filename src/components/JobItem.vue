@@ -2,7 +2,7 @@
   <div class="job-list">
     <div class="thumb">
       <a href="#">
-        <img :src="require(`../../public/assets/images/job/${job.companyLogo}`)" class="img-fluid" alt />
+        <img :src="src" class="img-fluid" alt="Company Logo" />
       </a>
     </div>
     <div class="body">
@@ -64,9 +64,13 @@ export default {
     MapPinIcon,
     ClockIcon,
     HeartIcon
+  },
+  computed: {
+    src() {
+      return this.job.companyLogo;
+    }
   }
 };
 </script>
 
-<style>
-</style>
+<style></style>
