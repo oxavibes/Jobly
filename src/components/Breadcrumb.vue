@@ -23,7 +23,7 @@
             </nav>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" v-if="showSearch">
           <div class="breadcrumb-form">
             <form action="#">
               <input type="text" placeholder="Palabras claves" />
@@ -43,6 +43,12 @@ import { SearchIcon } from "vue-feather-icons";
 
 export default {
   name: "Breadcrumb",
+  props: {
+    showSearch: {
+      type: Boolean,
+      default: false
+    }
+  },
   components: {
     SearchIcon
   },
