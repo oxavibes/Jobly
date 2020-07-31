@@ -3,13 +3,14 @@ import VueRouter from "vue-router";
 
 //Routes
 import { routes as sessionRoutes } from "./session";
+import { routes as candidateRoutes } from "./candidate";
 
 //Layouts
 import DefaultLayout from "../layout/DefaultLayout";
 import HomeLayout from "../layout/HomeLayout";
 import SessionLayout from "../layout/SessionLayout";
 
-//Components
+//Views
 import Home from "../views/Home";
 import JobListing from "../views/Jobs/JobListing";
 import ErrorPage from "../views/ErrorPage";
@@ -18,6 +19,7 @@ Vue.use(VueRouter);
 
 const routes = [
   ...sessionRoutes,
+  ...candidateRoutes,
   {
     path: "/",
     name: "home",
