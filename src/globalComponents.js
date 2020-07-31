@@ -1,4 +1,3 @@
-
 /*
 const globalComponents = {
   install(Vue) {
