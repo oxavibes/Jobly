@@ -45,7 +45,6 @@
 </template>
 
 <script>
-/* eslint-disable vue/no-unused-components */
 import SelectPicker from "../components/SelectPicker";
 import {
   BarChart2Icon,
