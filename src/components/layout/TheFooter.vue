@@ -19,27 +19,27 @@
               <ul class="social-icons">
                 <li>
                   <a href="#">
-                    <i data-feather="facebook"></i>
+                    <facebook-icon></facebook-icon>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i data-feather="twitter"></i>
+                    <twitter-icon></twitter-icon>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i data-feather="linkedin"></i>
+                    <linkedin-icon></linkedin-icon>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i data-feather="instagram"></i>
+                    <instagram-icon></instagram-icon>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i data-feather="youtube"></i>
+                    <youtube-icon></youtube-icon>
                   </a>
                 </li>
               </ul>
@@ -80,8 +80,23 @@
 </template>
 
 <script>
+import {
+  FacebookIcon,
+  TwitterIcon,
+  LinkedinIcon,
+  InstagramIcon,
+  YoutubeIcon
+} from "vue-feather-icons";
+
 export default {
   name: "TheFooter",
+  components: {
+    FacebookIcon,
+    TwitterIcon,
+    LinkedinIcon,
+    InstagramIcon,
+    YoutubeIcon
+  },
   computed: {
     currentYear() {
       return new Date().getFullYear();
