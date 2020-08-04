@@ -37,6 +37,9 @@
             <heart-icon></heart-icon>
           </a>
         </div>
+        <a v-if="isClosable" href="#" class="bookmark-remove"
+          ><i class="fas fa-times"></i
+        ></a>
         <p class="deadline">{{ job.deadline }}</p>
       </div>
     </div>
@@ -52,11 +55,15 @@ import {
 } from "vue-feather-icons";
 
 export default {
-  name: "RecentJobItem",
+  name: "JobItem",
   props: {
     job: {
       type: Object,
       required: true
+    },
+    isClosable: {
+      type: Boolean,
+      default: false
     }
   },
   components: {
