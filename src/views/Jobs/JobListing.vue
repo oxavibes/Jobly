@@ -1,11 +1,7 @@
 <template>
   <div>
-    <!-- Breadcrumb -->
-    <breadcrumb></breadcrumb>
-    <!-- Breadcrumb End -->
-
     <!-- Job Listing -->
-    <div class="alice-bg section-padding-bottom">
+    <div class="alice-bg padding-top-70 padding-bottom-70">
       <div class="container">
         <div class="row no-gutters">
           <div class="col">
@@ -25,15 +21,10 @@
                         :options.sync="options"
                         class="selectpicker"
                       ></select-picker>
-                      <v-select
-                        v-model="selectedOption"
-                        :options="options"
-                        class="selectpicker"
-                      ></v-select>
                     </div>
                   </div>
                   <div class="showing-number">
-                    <span>Mostrando 1 – 12 de 28 trabajos</span>
+                    <span>Mostrando 1 – 12 de 28 empleos</span>
                   </div>
                 </div>
                 <div class="job-filter-result">
@@ -73,53 +64,34 @@
                   <ul class="filtered-options"></ul>
                 </div>
                 <div class="job-filter-dropdown same-pad category">
-                  <select class="selectpicker">
-                    <option value selected>Category</option>
-                    <option value="california">Accounting / Finance</option>
-                    <option value="california">Education</option>
-                    <option value="california">Design &amp; Creative</option>
-                    <option value="california">Health Care</option>
-                    <option value="california"
-                      >Engineer &amp; Architects</option
-                    >
-                    <option value="california">Marketing &amp; Sales</option>
-                    <option value="california">Garments / Textile</option>
-                    <option value="california">Customer Support</option>
-                    <option value="california">Digital Media</option>
-                    <option value="california">Telecommunication</option>
-                  </select>
+                  <select-picker
+                    :selected.sync="selectedCategory"
+                    :options.sync="categoryOptions"
+                  ></select-picker>
                 </div>
                 <div class="job-filter-dropdown same-pad location">
-                  <select class="selectpicker">
-                    <option value selected>Location</option>
-                    <option value="california">Chicago</option>
-                    <option value="california">New York City</option>
-                    <option value="california">San Francisco</option>
-                    <option value="california">Washington</option>
-                    <option value="california">Boston</option>
-                    <option value="california">Los Angeles</option>
-                    <option value="california">Seattle</option>
-                    <option value="california">Las Vegas</option>
-                    <option value="california">San Diego</option>
-                  </select>
+                  <select-picker
+                    :selected.sync="selectedLocation"
+                    :options.sync="locationOptions"
+                  ></select-picker>
                 </div>
                 <div data-id="job-type" class="job-filter job-type same-pad">
                   <h4 class="option-title">Job Type</h4>
                   <ul>
                     <li class="full-time">
-                      <i data-feather="clock"></i>
+                      <clock-icon></clock-icon>
                       <a href="#" data-attr="Full Time">Full Time</a>
                     </li>
                     <li class="part-time">
-                      <i data-feather="clock"></i>
+                      <clock-icon></clock-icon>
                       <a href="#" data-attr="Part Time">Part Time</a>
                     </li>
                     <li class="freelance">
-                      <i data-feather="clock"></i>
+                      <clock-icon></clock-icon>
                       <a href="#" data-attr="Freelance">Freelance</a>
                     </li>
                     <li class="temporary">
-                      <i data-feather="clock"></i>
+                      <clock-icon></clock-icon>
                       <a href="#" data-attr="Temporary">Temporary</a>
                     </li>
                   </ul>
@@ -188,8 +160,22 @@
 </template>
 
 <script>
-import { MenuIcon, GridIcon } from "vue-feather-icons";
-import Breadcrumb from "../../components/Breadcrum";
+import {
+  MenuIcon,
+  GridIcon,
+  ClockIcon
+  // BarChart2Icon,
+  // BriefcaseIcon,
+  // HeadphonesIcon,
+  // LifeBuoyIcon,
+  // CommandIcon,
+  // PieChartIcon,
+  // RadioIcon,
+  // PackageIcon,
+  // FeatherIcon,
+  // EditIcon
+} from "vue-feather-icons";
+
 import SelectPicker from "../../components/SelectPicker";
 import JobItem from "../../components/JobItem";
 import ApplyJobModal from "../../components/modals/ApplyJobModal";
@@ -198,17 +184,98 @@ import CallToAction from "../../components/CallToAction";
 export default {
   name: "JobListing",
   components: {
-    Breadcrumb,
     SelectPicker,
     JobItem,
     ApplyJobModal,
     CallToAction,
     MenuIcon,
-    GridIcon
+    GridIcon,
+    ClockIcon
   },
   data() {
     return {
       selectedOption: "popular",
+      selectedLocation: "ubicacion",
+      selectedCategory: "category",
+      locationOptions: [
+        { value: "ubicacion", text: "Ubicación" },
+        { value: "california", text: "California" },
+        { value: "las-vegas", text: "Las Vegas" },
+        { value: "new-york", text: "New York" },
+        { value: "carolina", text: "Carolina" },
+        { value: "chicago", text: "Chicago" },
+        { value: "silicon-valley", text: "Silicon Valley" },
+        { value: "washington", text: "Washington DC" },
+        { value: "neveda", text: "Neveda" }
+      ],
+      categoryOptions: [
+        {
+          value: "category",
+          text: "Categoría",
+          quantity: 233,
+          icon: "BarChart2Icon"
+        },
+        {
+          value: "design",
+          text: "Diseño / UX",
+          quantity: 46,
+          icon: "Edit3Icon"
+        },
+        {
+          value: "programming",
+          text: "Programación",
+          quantity: 156,
+          icon: "FeatherIcon"
+        },
+        {
+          value: "data-science",
+          text: "Data Science",
+          quantity: 98,
+          icon: "BriefcaseIcon"
+        },
+        {
+          value: "mobile-dev",
+          text: "Desarrollo Mobile",
+          quantity: 188,
+          icon: "PackageIcon"
+        },
+        {
+          value: "engineering",
+          text: "Engineer & Architects",
+          quantity: 124,
+          icon: "PieChartIcon"
+        },
+        {
+          value: "marketing",
+          text: "Marketing Digital",
+          quantity: 584,
+          icon: "CommandIcon"
+        },
+        {
+          value: "sysadmin",
+          text: "SysAdmin / Devops / Qa ",
+          quantity: 233,
+          icon: "GlobeIcon"
+        },
+        {
+          value: "soporte",
+          text: "Soporte",
+          quantity: 15,
+          icon: "HeadphonesIcon"
+        },
+        {
+          value: "innovation",
+          text: "Innovacion y Agilidad ",
+          quantity: 5,
+          icon: "RadioIcon"
+        },
+        {
+          value: "telecommunications",
+          text: "Telecomunicaciónes",
+          quantity: 15,
+          icon: "BriefcaseIcon"
+        }
+      ],
       options: [
         { text: "Mas recientes", value: "recent" },
         { text: "Mas populares", value: "popular" }
