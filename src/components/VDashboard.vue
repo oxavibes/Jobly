@@ -10,15 +10,11 @@
             <div class="dashboard-sidebar">
               <div class="user-info">
                 <div class="thumb">
-                  <img
-                    src="../../public/assets/dashboard/images/user-1.jpg"
-                    class="img-fluid"
-                    alt="User image"
-                  />
+                  <img :src="user.photo" class="img-fluid" alt="User image" />
                 </div>
                 <div class="user-body">
-                  <h5>Lula Wallace</h5>
-                  <span>@username</span>
+                  <h5>{{ user.name }}</h5>
+                  <span>{{ user.username }}</span>
                 </div>
               </div>
               <div class="profile-progress">
@@ -70,6 +66,10 @@
 export default {
   name: "VDashboard",
   props: {
+    user: {
+      type: Object,
+      required: true
+    },
     menu: {
       type: Array,
       required: true

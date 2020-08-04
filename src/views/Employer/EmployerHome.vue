@@ -10,37 +10,42 @@
 import Dashboard from "../../components/VDashboard";
 
 export default {
-  name: "CandidateHome",
+  name: "EmployerHome",
   components: {
     Dashboard
   },
   data() {
     return {
       user: {
-        name: "Felipe Aws Recruiter",
-        photo: require("../../../public/assets/dashboard/images/user-1.jpg"),
-        username: "@username"
+        name: "ProIt",
+        photo: require("../../../public/assets/dashboard/images/company-logo.png"),
+        username: "@proit"
       },
       menu: [
         {
           title: "Tablero",
           icon: "fas fa-home",
-          route: "candidate-dashboard"
+          route: "employer-dashboard"
         },
         {
           title: "Perfil",
           icon: "fas fa-user",
-          route: "candidate-profile"
+          route: "employer-profile"
         },
         {
-          title: "Postulaciones",
-          icon: "fas fa-check-square",
-          route: "candidate-applied-jobs"
-        },
-        {
-          title: "Empleos guardados",
+          title: "Publicar un empleo",
           icon: "fas fa-heart",
-          route: "candidate-bookmarked-jobs"
+          route: "employer-post-job"
+        },
+        {
+          title: "Administrar empleos",
+          icon: "fas fa-check-square",
+          route: "employer-manage-jobs"
+        },
+        {
+          title: "Administrar candidatos",
+          icon: "fas fa-heart",
+          route: "employer-manage-candidates"
         }
       ]
     };
