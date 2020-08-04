@@ -27,7 +27,7 @@ export const routes = [
         name: "employer-profile",
         component: EmployerProfile,
         meta: {
-          DefaultLayout
+          layout: DefaultLayout
         }
       },
       {
@@ -35,7 +35,7 @@ export const routes = [
         name: "employer-manage-candidates",
         component: EmployerManageCandidates,
         meta: {
-          DefaultLayout
+          layout: DefaultLayout
         }
       },
       {
@@ -43,7 +43,7 @@ export const routes = [
         name: "employer-manage-jobs",
         component: EmployerManageJobs,
         meta: {
-          DefaultLayout
+          layout: DefaultLayout
         }
       },
       {
@@ -51,7 +51,7 @@ export const routes = [
         name: "employer-post-job",
         component: EmployerPostJob,
         meta: {
-          DefaultLayout
+          layout: DefaultLayout
         }
       }
     ]
