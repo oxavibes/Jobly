@@ -4,6 +4,7 @@ import VueRouter from "vue-router";
 //Routes
 import { routes as sessionRoutes } from "./session";
 import { routes as candidateRoutes } from "./candidate";
+import { routes as employerRoutes } from "./employer";
 
 //Layouts
 import DefaultLayout from "../layout/DefaultLayout";
@@ -20,6 +21,7 @@ Vue.use(VueRouter);
 const routes = [
   ...sessionRoutes,
   ...candidateRoutes,
+  ...employerRoutes,
   {
     path: "/",
     name: "home",
@@ -65,7 +67,7 @@ const router = new VueRouter({
   mode: "history",
   routes,
   scrollBehavior() {
-    return { x: 0, y: 0 };
+    // return { x: 0, y: 0 };
   }
 });
 
